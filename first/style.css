@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  height: 35vh;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.box1 {
+  background-color: red;
+}
+
+.box2 {
+  background-color: blue;
+}
+
+.box3 {
+  background-color: dimgray;
+}
+
+p {
+  font-size: 1.75em;
+  margin: 1em;
+}
+
+.shapes1 {
+  display: flex;
+  margin: 1em;
+}
+
+.box2_1 {
+  background-color: red;
+  width: 30%;
+  height: 40em;
+}
+
+.box2_2 {
+  background-color: blue;
+  width: 70%;
+  height: 40em;
+}
+
+.shapes2 {
+  background-color: blue;
+  display: flex;
+  justify-content: flex-end;
+  margin: 1em;
+}
+
+.box3_2 {
+  background-color: red;
+  width: 30%;
+  height: 20em;
+  display: flex;
+}
+
+.babybox {
+  width: 75%;
+  height: 20em;
+  background-color: gray;
+  margin: 0 auto;
+}

@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+}
+
+.container {
+  display: flex;
+}
+
+.main {
+  width: 100%;
+  background-color: gray;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.menu {
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  width: 80%;
+}
+
+.textbox {
+  width: 80%;
+  margin: 1em auto;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 1.5em;
+  /*line-height: 5px;*/
+}
+
+.buttonbar {
+  width: 80%;
+  flex-direction: row;
+  margin: 1em;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.button {
+  width: 20%;
+  height: 2.5em;
+  border: 1px solid dimgray;
+  margin: 10px;
+  margin-left: 0;
+}
+
+.click1 {
+  background-color: red;
+}
+
+.click2 {
+  background-color: blue;
+}
+
+.image {
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  width: 80%;
+}
+
+.img2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: dimgray;
+  height: 500px;
+  width: 500px;
+  margin: 1em;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  background-color: dimgray;
+  clear: both;
+  width: 100%;
+  /*bottom: 0;*/
+  /*position: fixed;*/
+}
+
+.link {
+  margin: 25px 50px;
+}
